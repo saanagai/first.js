@@ -27,11 +27,30 @@ console.log(total);
 // 2. Write a program that checks if a number is even or odd.
 // Input: A number x.
 // Output: Print whether the number is even or odd.
-let too1 = 55;
+let too1 = -50;
 if (too1 % 2 == 0) {
-  if (too1 < 0) console.log("tegsh too surug");
+  if (too1 < 0) console.log("tegsh-too surug");
+  else {
+    console.log("tegsh-too eyreg");
+  }
 } else {
-  console.log("tegsh too eyreg");
-} else {
-    if(too1>1) console.log("sondgoi too ")
+  if (too1 > 1) {
+    console.log("sondgoi-too,eyreg");
+  } else {
+    console.log("sondgoi-too,surug");
+  }
+}
+// 3. Create a basic login system.
+// Input: Two variables username and password.
+// If the username is "admin" and the password is "12345", print "Login successful!".
+// Otherwise, print "Login failed!”.
+let ner = admin;
+let password = 12345;
+if (ner == admin) {
+  if (password == 1234) console.log("Login failed!");
+  else {
+    console.log("Login failed!");
+  }
+}else {
+  if (password == 1234)
 }
