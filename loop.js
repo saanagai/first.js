@@ -9,6 +9,7 @@
 // for (let i = 100; i > 0; i = i - 1) {
 //   console.log(i);
 // }
+//9//
 // 5 * 1  = 5
 // 5 * 2  = 10
 // 5 * 3  = 15
@@ -41,8 +42,16 @@
 // }
 // console.log(sum);
 //5//Write a C program to print all odd number between 1 to 100.
-let i = 1;
+// let i = 1;
 
-for (let i = 0; i <= 100; i = i + 2) {
-  console.log(i);
-}
+// for (let i = 0; i <= 100; i = i + 2) {
+//   console.log(i);
+// }
+let day = 1;
+if (day == 1) console.log("Monday");
+if (day == 2) console.log("Tuesday");
+if (day == 3) console.log("Wednesday");
+if (day == 4) console.log("Thursday");
+if (day == 5) console.log("Friday");
+if (day == 6) console.log("Saturday");
+if (day == 7) console.log("Sunday");
