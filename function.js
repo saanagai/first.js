@@ -62,13 +62,21 @@
 // }
 // oddNum(100)
 //6/
-let sum = 0;
-function sumNum(n) {
-  for (i = 1; i <= n; i++) {
-    sum = i + sum;
-  }
-  console.log(sum);
-}
+// let sum = 0;
+// function sumNum(n) {
+//   for (i = 1; i <= n; i++) {
+//     sum = i + sum;
+//   }
+//   console.log(sum);
+// }
 
-sumNum(11);
-cd;
+// sumNum(11);
+
+//6/
+// function sunNUm(n, l) {
+//   for (let i = 1; i <= n; i++) {
+//     l = l + i;
+//     console.log(l);
+//   }
+// }
+// sunNUm(10, 0);
